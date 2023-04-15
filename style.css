@@ -18,17 +18,21 @@ body{
 
 li {
     display: inline-block;
-      padding: 5px;
+      padding: 10px 6px;
+      
 }
 
 ul {
     border-top: 1px solid #777;
-    border-bottom: 1px solid #777
+    border-bottom: 1px solid #777;
+    
+
 }
 
 a {
     color:#777;
     text-decoration: none;
+    font-size : 14px
     
 }
 
@@ -42,8 +46,13 @@ h2{
 
 section{
     display: inline-block;
-    width:40%;
-    padding: 25px
+    width:200px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+section img{
+    width:100%
 }
 
 p{
@@ -59,7 +68,7 @@ main img{
 
 .newspaper-container{
     border-radius: 10px;
-    padding:2em;
+    padding:1em;
     width:700px;
     background-color: white;
     margin:auto;
@@ -68,6 +77,10 @@ main img{
 
 .more-articles{
     border-top:1px solid #777;
-    
+}
 
+nav {
+    position:sticky;
+    top:0;
+    background: white;
 }
